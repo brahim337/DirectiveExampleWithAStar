@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SternMakeItBigDirective } from './stern-make-it-big.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SternMakeItBigDirective
   ],
   imports: [
     BrowserModule,
